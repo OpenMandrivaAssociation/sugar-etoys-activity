@@ -16,8 +16,8 @@ Requires: squeak-vm-olpc >= 3.10.3
 BuildRequires: sugar-toolkit >= 0.83.3
 BuildRequires: gettext  
 
-ExclusiveArch: %ix86
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildArch: noarch
 
 %description
 Squeak Etoys was inspired by LOGO, PARC-Smalltalk, Hypercard, starLOGO
