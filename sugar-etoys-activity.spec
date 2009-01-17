@@ -2,7 +2,7 @@
 
 Name: sugar-etoys-activity
 Version: 4.0.2201
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Squeak Etoys activity for Sugar
 License: MIT/Apache
 Group: Graphical desktop/Other
