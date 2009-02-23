@@ -10,10 +10,10 @@ Url: http://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/sucrose/glucose/etoys/etoys-4.0.2205-2.tar.gz
 
-Requires: sugar-toolkit >= 0.83.6
+Requires: sugar-toolkit >= 0.83.7
 Requires: squeak-vm-olpc >= 3.10.3
 
-BuildRequires: sugar-toolkit >= 0.83.6
+BuildRequires: sugar-toolkit >= 0.83.7
 BuildRequires: gettext  
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
