@@ -11,10 +11,10 @@ Url: http://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/Etoys-105.tar.gz
 
-Requires: etoys >= 4.0.2318
-Requires: sugar-toolkit >= 0.85.8
+Requires: etoys >= 4.0.2319
+Requires: sugar-toolkit >= 0.86.0
 
-BuildRequires: sugar-toolkit >= 0.85.8
+BuildRequires: sugar-toolkit >= 0.86.0
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
