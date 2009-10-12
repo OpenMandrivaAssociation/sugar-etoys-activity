@@ -2,17 +2,17 @@
 #       See http://wiki.sugarlabs.org/go/Deployment_Team/jhconvert for details
 
 Name: sugar-etoys-activity
-Version: 105
+Version: 109
 Release: %mkrel 2
 Summary: Squeak Etoys activity for Sugar
 License: MIT/Apache
 Group: Graphical desktop/Other
 Url: http://sugarlabs.org/
 
-Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/Etoys-105.tar.gz
+Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/Etoys-109.tar.gz
 
-Requires: etoys >= 4.0.2319
-Requires: sugar-toolkit >= 0.86.0
+Requires: etoys >= 4.0.2332
+Requires: sugar-toolkit >= 0.86.1
 
 BuildRequires: sugar-toolkit >= 0.86.0
 
@@ -30,7 +30,7 @@ in real-time, so many forms of immersive mentoring and play can be done over
 the Internet.
 
 %prep
-%setup -q -n Etoys-105
+%setup -q -n Etoys-109
 
 
 %build
