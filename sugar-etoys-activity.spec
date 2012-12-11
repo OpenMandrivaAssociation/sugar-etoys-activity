@@ -52,3 +52,46 @@ rm -rf %{buildroot}
 %{_datadir}/sugar/activities/*
 %doc COPYING NEWS
 
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 115-2mdv2011.0
++ Revision: 615032
+- the mass rebuild of 2010.1 packages
+
+* Sun Apr 04 2010 Aleksey Lim <alsroot@mandriva.org> 115-1mdv2010.1
++ Revision: 531087
+- Sucrose 0.88.0 release
+
+* Mon Oct 12 2009 Aleksey Lim <alsroot@mandriva.org> 109-2mdv2010.0
++ Revision: 456975
+- Push 109
+
+* Sat Sep 19 2009 Aleksey Lim <alsroot@mandriva.org> 105-2mdv2010.0
++ Revision: 444541
+- Update to 105
+
+* Tue Aug 11 2009 Aleksey Lim <alsroot@mandriva.org> 102-1mdv2010.0
++ Revision: 414900
+- Sucrose 0.85.2
+
+* Mon Apr 06 2009 Aleksey Lim <alsroot@mandriva.org> 4.0.2212-1mdv2009.1
++ Revision: 364293
+- Sucrose 0.84.2 release
+
+* Wed Mar 04 2009 Aleksey Lim <alsroot@mandriva.org> 4.0.2206-1mdv2009.1
++ Revision: 348317
+- Sucrose 0.84.0 release
+
+* Tue Jan 20 2009 Aleksey Lim <alsroot@mandriva.org> 4.0.2205-1mdv2009.1
++ Revision: 332035
+- new Sucrose 0.83.4 release
+
+* Sat Jan 17 2009 Aleksey Lim <alsroot@mandriva.org> 4.0.2201-2mdv2009.1
++ Revision: 330735
+- switch build arch to noarch
+
+* Sun Jan 11 2009 Aleksey Lim <alsroot@mandriva.org> 4.0.2201-1mdv2009.1
++ Revision: 328400
+- initial commit
+
