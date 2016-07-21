@@ -2,21 +2,20 @@
 #       See http://wiki.sugarlabs.org/go/Deployment_Team/jhconvert for details
 
 Name: sugar-etoys-activity
-Version: 115
-Release: 4
+Version: 116
+Release: 1
 Summary: Squeak Etoys activity for Sugar
 License: MIT/Apache
 Group: Graphical desktop/Other
 Url: http://sugarlabs.org/
 
-Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/Etoys-115.tar.gz
+Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/Etoys-%{version}.tar.gz
 
 Requires: etoys >= 4.0.2340
 Requires: sugar-toolkit >= 0.88.0
 
 BuildRequires: sugar-toolkit >= 0.88.0
 
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch: noarch
 
 %description
@@ -30,25 +29,21 @@ in real-time, so many forms of immersive mentoring and play can be done over
 the Internet.
 
 %prep
-%setup -q -n Etoys-115
+%setup -q -n Etoys-%{version}
 
 
 %build
 
 rm -f MANIFEST
-python setup.py build
+python2 setup.py build
 
 %install
 rm -rf %{buildroot}
-python setup.py install --prefix=%{buildroot}/%{_prefix}
+python2 setup.py install --prefix=%{buildroot}/%{_prefix}
 find %{buildroot} -name '*.py.orig' -print0 | xargs -0 rm -f
 
 
-%clean
-rm -rf %{buildroot}
-
 %files 
-%defattr(-,root,root,-)
 %{_datadir}/sugar/activities/*
 %doc COPYING NEWS
 
