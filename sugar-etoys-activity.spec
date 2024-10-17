@@ -7,7 +7,7 @@ Release: 1
 Summary: Squeak Etoys activity for Sugar
 License: MIT/Apache
 Group: Graphical desktop/Other
-Url: http://sugarlabs.org/
+Url: https://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/sucrose/fructose/Etoys/Etoys-%{version}.tar.gz
 
